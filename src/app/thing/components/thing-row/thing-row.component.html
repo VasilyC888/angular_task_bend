@@ -1,0 +1,5 @@
+<div *ngFor="let thing of things">
+    <div *ngIf="thing.areaId === areaId">
+        <app-thing-card [thing]="thing"></app-thing-card>
+    </div>
+</div>

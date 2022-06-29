@@ -1,0 +1,4 @@
+<div *ngFor="let area of areas$ | async">
+    <h1>{{ area.name }}</h1>
+    <app-thing-row [areaId]="area.areaId"></app-thing-row>
+</div>
